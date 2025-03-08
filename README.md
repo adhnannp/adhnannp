@@ -1,5 +1,25 @@
-# 💫 About Me:
-Hey there! 👋 I'm Adhnan, a **passionate MERN Stack Developer** with a knack for **full-stack applications** and a special interest in **data structures**. I love solving complex **real-world problems** and building **responsive, dynamic applications** using **JavaScript, Node.js, Express, MongoDB, and React**. With a strong foundation in **data structures**, I aim to write clean, efficient code to optimize both performance and user experience. 🌐💡<br><br>### Ask me about:<br>- **Web Development** 🔧 – particularly with the MERN stack!<br>- **Data Structures & Algorithms** 📐 – from arrays and linked lists to trees and graphs, I enjoy diving deep into data organization and efficiency.<br>- **Database Design** 📊 – crafting optimized schemas is my jam.<br>- **Problem Solving** 🧩 – there's nothing better than tackling a tricky coding challenge!<br><br>## Fun Fact 🎉<br>I'm always on the lookout for new ways to make code **simpler and more efficient**, and I believe the right data structure can be a game-changer in any project!
+const Adhnan = {
+  name: "Adhnan P",
+  role: "MERN Stack Developer",
+  skills: ["JavaScript", "Node.js", "Express", "MongoDB", "React"],
+  interests: ["Data Structures", "Algorithms", "Problem Solving", "Database Design"],
+  passion: "Building responsive, scalable applications and optimizing code performance.",
+  
+  askMeAbout() {
+    return [
+      "Web Development 🔧 – particularly with the MERN stack!",
+      "Data Structures & Algorithms 📐 – from arrays to trees, I love organizing data efficiently.",
+      "Database Design 📊 – crafting optimized schemas is my jam.",
+      "Problem Solving 🧩 – I enjoy tackling tricky coding challenges!"
+    ];
+  },
+
+  funFact: () => "I believe the right data structure can be a game-changer in any project!",
+};
+
+console.log(`👋 Hey there! I'm ${Adhnan.name}, a passionate ${Adhnan.role}.`);
+console.log("🔥 Ask me about:", Adhnan.askMeAbout().join("\n"));
+console.log(`🎉 Fun Fact: ${Adhnan.funFact()}`);
 
 
 ## 🌐 Socials:

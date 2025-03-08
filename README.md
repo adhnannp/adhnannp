@@ -1,3 +1,4 @@
+```js
 const Adhnan = {
   name: "Adhnan P",
   role: "MERN Stack Developer",
@@ -20,6 +21,7 @@ const Adhnan = {
 console.log(`👋 Hey there! I'm ${Adhnan.name}, a passionate ${Adhnan.role}.`);
 console.log("🔥 Ask me about:", Adhnan.askMeAbout().join("\n"));
 console.log(`🎉 Fun Fact: ${Adhnan.funFact()}`);
+```
 
 
 ## 🌐 Socials:
